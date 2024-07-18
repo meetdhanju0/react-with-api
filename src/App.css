@@ -36,3 +36,147 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar css */
+.header_section {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler span {
+  background-color: #000;
+  display: block;
+  height: 2px;
+  margin: 4px 0;
+  width: 20px;
+}
+
+.collapse.navbar-collapse {
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item .nav-link {
+  color: #000;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+  color: #f00;
+}
+
+.user_option,
+.cart_option {
+  display: flex;
+  align-items: center;
+}
+
+.user_option .user_link,
+.cart_option .cart_link {
+  color: #000;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.user_option .user_link:hover,
+.cart_option .cart_link:hover {
+  color: #f00;
+}
+
+.form-inline .btn.nav_search-btn {
+  border: none;
+  background: transparent;
+  color: #000;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.form-inline .btn.nav_search-btn:hover {
+  color: #f00;
+}
+
+.order_online {
+  margin-left: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.order_online:hover {
+  color: #f00;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .user_option,
+  .cart_option {
+    margin: 10px 0;
+  }
+}
+
+
+/* Not Found */
+.color{
+  color: #ffbe33;
+}
+
+.text-U {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #181d38;
+}
+
+/* home silk slider */
+
+.img-set{
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+}
+
+.bgcolor{
+  background-color: #222831;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.pra{
+  margin: 0px 0px 0px 15px;
+}
